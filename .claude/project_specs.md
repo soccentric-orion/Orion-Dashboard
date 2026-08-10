@@ -15,4 +15,4 @@ A standalone dashboard UI leaf. Runs anywhere; not part of the on-device image.
 
 * **Not proto-coupled to Orion-HAL.** Reads from Orion-Server over HTTP/SSE.
 * That HTTP/SSE surface is the whole dependency, and it is not compile-checked — which is why `contract-tests/` exists, and why a Server-side change can break this repo without touching its code.
-* **Distinct from Orion-Configuration's on-device dashboard.** Configuration's UI ships onto the Jetson inside the OS image. This one does not.
+* **Distinct from Orion-Configuration's on-device dashboard.** Configuration's UI ships onto the STM32MP157F inside the OS image. This one does not.

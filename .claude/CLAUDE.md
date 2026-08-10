@@ -23,7 +23,7 @@ docker packaging. Not the on-device UI.
 
 ## Don't
 
-* **Don't conflate this with Orion-Configuration's on-device dashboard.** Both exist and they are different things: Configuration's UI ships onto the Jetson inside the OS image, this one is a standalone app.
+* **Don't conflate this with Orion-Configuration's on-device dashboard.** Both exist and they are different things: Configuration's UI ships onto the STM32MP157F inside the OS image, this one is a standalone app.
 * **Don't assume a Server change is safe for this repo.** It reads from Orion-Server over HTTP/SSE, so a Server-side change can break it without touching a line here. That is what `contract-tests/` is for.
 
 <!-- BEGIN loop-engine -->
