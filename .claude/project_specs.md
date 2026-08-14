@@ -1,4 +1,4 @@
-# Orion-Dashboard — specs Remote: `git@github.com:SiliconCentric/Orion-Dashboard.git`
+# Orion-Dashboard — specs Remote: `git@github.com:soccentric-orion/Orion-Dashboard.git`
 Stack: node. A standalone dashboard UI leaf. Runs anywhere; not part of the on-device image. ## Layout * `webui/` — Next.js app-router frontend. Has its own `package.json`, separate from the root one.
 * `contract-tests/` — pytest suite with its own Makefile. Python, not JS.
 * `docker/` — packaging. ## Coupling * **Not proto-coupled to Orion-HAL.** Reads from Orion-Server over HTTP/SSE.
